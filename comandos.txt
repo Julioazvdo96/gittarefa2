@@ -1,0 +1,18 @@
+Júlio Azevedo da Costa
+
+mkdir gittarefa2
+cd gittarefa2
+git init
+git clone https://gitlab.com/mizael.cortez/curso-branchs-ifrn-ead
+git add texto.txt
+git commit -m "texto.txt com linha de texto qualquer"
+git switch -C feature-1
+git add texto.txt
+git commit -m "texto.txt com texto alterado"
+git switch main
+git add texto.txt
+git commit -m "mesma linha alterada"
+git merge feature-1
+git add texto.txt
+git commit -m "arquivo editado com final coerente"
+git switch -C add-comandos
